@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header {
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    gap: 550px;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+ul li a {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    color: rgba(0, 0, 0, 0.364)
+}
+
+.imgfundo1 img {
+    width: 100%;
+}
+
+.logo img {
+    width: 100;
+}
+
+
+.risco {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border: 2px solid gray;
+}
